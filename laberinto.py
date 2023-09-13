@@ -1,15 +1,14 @@
+'''
 nombre = input("Escribe tu nombre:")
 
 print(f"Bienvenido {nombre}")
+'''
+from readchar import key
 
-import readchar
-
-from readchar import readkey, key
-
+k = key()
 while True:
-  k = readkey() 
-  if k == "w": 
-  if k == "s":
-  if k == "a":
-  if k == "d":
-    break
+  if k == key.UP:
+  print ("k")
+
+
+
